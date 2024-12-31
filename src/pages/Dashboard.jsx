@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { counts } from "../../utils/data";
-import CountsCard from "../components/cards/CountsCard";
-import WeeklyStatCard from "../components/cards/WeeklyStatCard";
-import CategoryChart from "../components/cards/CategoryChart";
+import CountsCard from "../components/Cards/CountsCard";
+import WeeklyStatCard from "../components/Cards/WeeklyStatCard";
+import CategoryChart from "../components/Cards/CategoryChart";
 import AddWorkout from "../components/AddWorkout";
-import WorkoutCard from "../components/cards/Workoutcard";
+import WorkoutCard from "../components/Cards/Workoutcard";
 import { addWorkout, getDashboardDetails, getWorkouts } from "../../api";
 
 const Container = styled.div`
