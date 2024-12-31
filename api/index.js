@@ -1,7 +1,9 @@
 import axios from "axios";
 
+
+
 const API = axios.create({
-  baseURL: "https://get-fit-backend.onrender.com/api/",
+  baseURL: import.meta.env.VITE_BASE_URL,
 });
 
 export const UserSignUp = async (data) => API.post("/user/signup", data);
