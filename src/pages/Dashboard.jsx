@@ -4,7 +4,7 @@ import { counts } from "../../utils/data";
 import CountsCard from "../components/Cards/CountsCard";
 import WeeklyStatCard from "../components/Cards/WeeklyStatCard";
 import CategoryChart from "../components/Cards/CategoryChart";
-import AddWorkout from "../components/AddWorkout";
+import AddWorkout from "../components/Addworkout";
 import WorkoutCard from "../components/Cards/Workoutcard";
 import { addWorkout, getDashboardDetails, getWorkouts } from "../../api";
 
