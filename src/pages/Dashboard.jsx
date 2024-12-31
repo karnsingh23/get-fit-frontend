@@ -5,7 +5,7 @@ import CountsCard from "../components/cards/CountsCard.jsx";
 import WeeklyStatCard from "../components/cards/WeeklyStatCard.jsx";
 import CategoryChart from "../components/cards/CategoryChart.jsx";
 import AddWorkout from "../components/AddWorkout.jsx";
-import WorkoutCard from "../components/cards/WorkoutCard.jsx";
+import WorkoutCard from "../components/cards/Workoutcard.jsx";
 import { addWorkout, getDashboardDetails, getWorkouts } from "../../api";
 
 const Container = styled.div`
